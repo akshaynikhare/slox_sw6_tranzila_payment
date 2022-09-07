@@ -1,0 +1,32 @@
+{
+    "name": "swag/slox_sw6_tranzila_payment",
+    "description": "Tranzila Payment Gateway iframe based",
+    "version": "v1.1.3",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "slox_sw6_tranzila_payment\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Akshay Nikhare",
+        "homepage": "https://github.com/akshaynikhare",
+        "role": "Developer"
+    }],
+    "require": {
+        "shopware/core": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "slox_sw6_tranzila_payment\\slox_sw6_tranzila_payment",
+        "label": {
+            "de-DE": "Tranzila Zahlung",
+            "en-GB": "Tranzila Payment"
+        },
+        "description": {
+            "de-DE": "Tranzila Payment Gateway iframe basiert",
+            "en-GB": "Tranzila Payment Gateway iframe based"
+        }
+    }
+
+}

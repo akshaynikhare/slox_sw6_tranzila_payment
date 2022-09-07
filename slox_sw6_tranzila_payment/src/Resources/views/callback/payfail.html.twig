@@ -1,0 +1,46 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_body_inner %}
+
+{% include '@slox_sw6_tranzila_payment/callback/index.html.twig' %}
+
+
+<h2 style=" text-align: center;">
+<svg width="199" height="199" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="201" width="201" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#ff0000" ry="85.49999" rx="85.49999" id="svg_1" cy="100.53425" cx="100" fill-opacity="null" stroke-width="24.5" fill="none"/>
+  <ellipse stroke="#000000" ry="4.78846" rx="4.01923" id="svg_7" cy="97.89964" cx="53.32693" stroke-width="0" fill="none"/>
+  <g stroke="null" id="svg_18">
+   <line stroke="#ff0000" stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="65.71117" x2="135.07421" y1="134.72656" x1="66.05882" fill-opacity="null" stroke-width="24.5" fill="none"/>
+   <ellipse stroke="#00bf5f" ry="12" rx="12.30769" id="svg_16" cy="133.89282" cx="66.92986" stroke-width="0" fill="#ff0000"/>
+   <ellipse stroke="#00bf5f" ry="12" rx="12.30769" id="svg_17" cy="66.2548" cx="134.55881" stroke-width="0" fill="#ff0000"/>
+  </g>
+  <g stroke="null" id="svg_22">
+   <line transform="rotate(-90 100.88938903808595,100.25164031982422) " stroke="#ff0000" stroke-linecap="null" stroke-linejoin="null" id="svg_19" y2="65.74394" x2="135.39709" y1="134.75933" x1="66.3817" fill-opacity="null" stroke-width="24.5" fill="none"/>
+   <ellipse transform="rotate(-90 134.56335449218753,133.88829040527344) " stroke="#00bf5f" ry="12" rx="12.30769" id="svg_20" cy="133.88829" cx="134.56335" stroke-width="0" fill="#ff0000"/>
+   <ellipse transform="rotate(-90 66.92533111572267,66.25934600830078) " stroke="#00bf5f" ry="12" rx="12.30769" id="svg_21" cy="66.25934" cx="66.92534" stroke-width="0" fill="#ff0000"/>
+  </g>
+ </g>
+</svg>
+
+</h2>
+
+<h2 style=" text-align: center;">
+
+
+    Payment Failed.
+</h2>
+<p class="revocation-notice" style=" text-align: center;">
+
+
+<a href="{{ redirectURL }}" class="btn btn-primary"  title="Try Again" aria-label="Try Again"> Try Again  </a>
+
+<a href="/" class="btn btn-outline-primary" title="Continue shoping"> Continue shoping   </a>
+</p>
+{% endblock %}

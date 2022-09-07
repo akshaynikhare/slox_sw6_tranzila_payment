@@ -1,0 +1,12 @@
+<p style="text-align: center;">{{ message | raw }} </p>
+{% if shopware.config.slox_sw6_tranzila_payment.config.trBgColor and (shopware.config.slox_sw6_tranzila_payment.config.trBgColor|slice(0, 1))=='#' %} 
+    <style>
+        body{
+        background: {{ shopware.config.slox_sw6_tranzila_payment.config.trBgColor }};
+        }
+    </style>    
+{% endif %}
+
+
+
+

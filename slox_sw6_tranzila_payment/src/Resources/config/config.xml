@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Terminal configuration</title>
+        <!-- <title lang="de-DE">Terminal configuration</title> -->
+            <input-field type="text">
+                <name>terminalname</name>
+                <label>Terminal name</label>
+                <placeholder> enter your Tranzila terminal name</placeholder>
+                <helpText>Please fill in your Tranzila terminal name</helpText>
+                <defaultValue></defaultValue>
+                <!-- <disabled>true</disabled> -->
+            </input-field>
+    </card>
+
+    <card>
+
+        <title>Iframe configuration</title>
+        <!-- <title lang="de-DE">Iframe configuration</title> -->
+
+           <input-field>
+                <name>paybuttonLabel</name>
+                <label>payment button text</label>
+                <defaultValue>Submit Order</defaultValue>
+            </input-field>
+
+            <input-field type="colorpicker">
+                <name>trButtonColor</name>
+                <label>Payment button color</label>
+                <defaultValue></defaultValue>
+            </input-field>
+
+            <input-field type="colorpicker">
+                <name>trBgColor</name>
+                <label>	Background color </label>
+                <defaultValue></defaultValue>
+            </input-field>
+
+            <input-field type="colorpicker">
+                <name>trTextColor</name>
+                <label>Text color</label>
+                <defaultValue></defaultValue>
+            </input-field>
+
+
+    </card>
+
+</config>
